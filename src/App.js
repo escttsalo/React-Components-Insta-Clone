@@ -35,6 +35,10 @@ const App = () => {
     setPosts(posts.map( post => {
       return postId === post.id ?  {...post, likes: post.likes+1 } : post 
     }));
+
+    // const newComment = comment => {
+      
+    // }
   };
 
   return (
